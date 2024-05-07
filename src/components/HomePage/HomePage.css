@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+.homepage {
+  width: 100%;
+  height: fit-content;
+  padding: 2.4rem;
+}
+
+.landing-section {
+  margin: 7.9rem 6.2rem;
+}
+
+
+
+.top-headings {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.top-heading-1 {
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: "Covered By Your Grace", cursive;
+  color: #2da950;
+  margin-bottom: 1.6rem;
+  font-weight: 400;
+}
+
+.top-heading-2 {
+  text-align: center;
+  font-size: 5.6rem;
+  color: #1c1c1c;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+
+.about-section {
+  margin-top: 11.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-about-section {
+  width: 72.749rem;
+  height: 59.6rem;
+  position: relative;
+}
+
+.right-about-section {
+  margin-right: 14.5rem;
+  margin-top: 7.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.about-heading {
+  font-size: 4rem;
+  font-family: "Manrope", sans-serif;
+  width: 39.8rem;
+}
+
+.girl-img {
+  height: 54.6rem;
+  width: 50.7rem;
+  left: 14.47rem;
+  position: absolute;
+  border-radius: 5.85rem;
+}
+
+.about-box-1 {
+  height: 24rem;
+  width: 26.8rem;
+  position: absolute;
+  top: 11.4rem;
+  border-radius: 2.7rem;
+  background: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about-box-2 {
+  height: 8.8rem;
+  width: 24.5rem;
+  position: absolute;
+  top: 41.3rem;
+  left: 8.6rem;
+
+  border-radius: 4.4rem;
+  background: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.about-box-3 {
+  height: 24rem;
+  width: 29rem;
+  position: absolute;
+  background: #002e18;
+  border-radius: 2.7rem;
+  bottom: 0;
+  right: 0;
+}
