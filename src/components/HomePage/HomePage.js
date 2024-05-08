@@ -26,6 +26,7 @@ function HomePage() {
             </h3>
             <div className="dots"></div>
             <button>Explore More </button>
+            
           </div>
         </div>
       </div>
