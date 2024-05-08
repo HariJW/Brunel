@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
+
+.accordion-item {
+  margin-bottom: 0.1rem solid #d7d7d7;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+
+.accordion-title:hover {
+  background-color: #3ab4cc;
+}
+
+.accordion-content {
+    font-size: 1.5rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #617275;
+}
+
+.accordion-content {
+  background-color: #39b9d2;
+}

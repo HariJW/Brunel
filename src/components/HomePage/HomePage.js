@@ -1,7 +1,9 @@
 import React from "react";
-import { Navbar } from "../index";
+import { Navbar, Accordion } from "../index";
+import { accordionData } from "../../content";
 import "./HomePage.css";
 import girlImg from "../../assets/images/girl.png";
+import Alogo from "../../assets/images/a.png";
 function HomePage() {
   return (
     <div className="homepage">
@@ -26,6 +28,22 @@ function HomePage() {
             </h3>
             <div className="dots"></div>
             <button>Explore More </button>
+          </div>
+        </div>
+      </div>
+      <div className="questions-section">
+        <div className="questions-left-section">
+          <div className="question-headings">
+            <h3 className="question-heading-1">Whats on your mind</h3>
+            <h1 className="question-heading-2">Ask Questions</h1>
+          </div>
+          <img src={Alogo} alt="Alogo" className="Alogo" />
+        </div>
+        <div className="questions-right-section">
+          <div className="accordion">
+            {accordionData.map(({ title, content }) => (
+              <Accordion title={title} content={content} />
+            ))}
           </div>
         </div>
       </div>

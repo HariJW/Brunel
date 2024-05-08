@@ -8,10 +8,11 @@
 }
 
 .landing-section {
-  margin: 7.9rem 6.2rem;
+  margin-top: 7.9rem;
+  margin-left: 6.2rem;
+  margin-bottom: 14.1rem;
+  margin-right: 6.2rem;
 }
-
-
 
 .top-headings {
   display: flex;
@@ -101,4 +102,57 @@
   border-radius: 2.7rem;
   bottom: 0;
   right: 0;
+}
+
+.questions-section {
+  margin: 0.8rem;
+  background: #e8eee7;
+  height: 74.9rem;
+  border-radius: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.questions-left-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.question-headings {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 9.45rem;
+}
+
+.question-heading-1 {
+  text-align: left;
+  font-size: 3.2rem;
+  font-family: "Covered By Your Grace", cursive;
+  color: #9e9d9d;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.question-heading-2 {
+  text-align: left;
+  font-size: 6rem;
+  color: #1c1c1c;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+
+.Alogo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 51.46rem;
+  width: 49.1rem;
+}
+
+.questions-right-section{
+  margin-top: 13.7rem;
+  margin-left: 22.15rem;
+  margin-right: 7.4rem;
 }
