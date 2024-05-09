@@ -13,6 +13,7 @@
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: #1c1c1c;
+  margin-bottom: 2.4rem;
 }
 
 .accordion-title:hover {
@@ -20,12 +21,27 @@
 }
 
 .accordion-content {
-    font-size: 1.5rem;
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    color: #617275;
+  font-size: 1.5rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  color: #617275;
+  justify-content: space-between;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+  
 }
 
-.accordion-content {
-  background-color: #39b9d2;
+
+.title question {
+  color: #1c1c1c;
+  font-family: "Manrope", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  height: 2.8rem;
+  
+}
+
+.text-23-Container{
+  display: flex;
+  justify-content: space-between;
 }

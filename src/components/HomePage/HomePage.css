@@ -151,8 +151,109 @@
   width: 49.1rem;
 }
 
-.questions-right-section{
+.questions-right-section {
   margin-top: 13.7rem;
   margin-left: 22.15rem;
   margin-right: 7.4rem;
+}
+.Expolre-btn {
+  border: none;
+  outline: none;
+  justify-content: center;
+  margin-top: 4.7rem;
+  height: 7.72rem;
+  width: 41.7rem;
+  background: #1c1c1c;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  border-radius: 3.86rem;
+  cursor: pointer;
+}
+.box-1-text-par {
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: #828282;
+  margin: 2.2rem;
+  font-size: 1.8rem;
+}
+.about-box-2-D {
+  display: inline-flex;
+}
+.about-box-2 {
+  justify-content: center;
+}
+
+.numicon {
+  margin-left: -6rem;
+}
+.sparkImage {
+  margin-top: -2rem;
+}
+.box-1-text-par {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  color: #828282;
+  justify-content: center;
+}
+.gorocket-icon {
+  padding: 1.6rem, 3.2rem, 1.6rem, 1.6rem;
+  margin-top: 2.02rem;
+  margin-left: 2.5rem;
+  margin-bottom: 3.1rem;
+}
+.days {
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 2.4rem;
+  width: 9.2rem;
+  justify-content: center;
+  margin: 2rem, 4rem;
+  font-family: "Manrope", sans-serif;
+  height: 3.3rem;
+}
+.Staff-text {
+  color: #828282;
+
+  width: 13.1rem;
+  height: 2.1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+}
+.dollar-img {
+  color: #ffffff;
+  size: 6.337rem;
+
+  height: 7.6rem;
+  width: 11.9rem;
+  font-family: "Switzer", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  margin-left: 3.6rem;
+  margin-top: 3.4rem;
+}
+.Mill-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  color: #828282;
+  justify-content: center;
+  font-size: 2.281rem;
+  margin-left: 0.8rem;
+}
+.Reduced-client {
+  font-family: "Manrope", sans-serif;
+  color: #cccccc;
+  width: 22.449rem;
+  height: 6.9rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  justify-content: center;
+  margin-left: 3.6rem;
+  margin-bottom: 4rem;
+}
+.questions-right-section {
+  width: 58.1rem;
 }

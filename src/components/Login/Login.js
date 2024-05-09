@@ -3,7 +3,8 @@ import "./Login.css";
 import logoImg from "../../assets/images/logo.png";
 import { IoCloseSharp } from "react-icons/io5";
 import { MdError } from "react-icons/md";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import Vector from "../../assets/images/Vector.png";
 
 function Login() {
   const navigate = useNavigate();
@@ -88,15 +89,15 @@ function Login() {
         </div>
       ) : (
         <div className="success-section">
-          <img className="success-logo" />
+          <img src={Vector} alt="Vector" className="success-logo" />
           <h3 className="success-heading-1">Success Submitted</h3>
           <h1 className="success-heading-2">Congratulations</h1>
           <p className="success-para">
-            Your request has been successfully submitted to us. We will validate
-            your information and reach out to your shortly with updates
+            Your request has been successfully submitted to us. We,<br></br> will validate
+            your information and reach out to your <br></br>shortly with updates
           </p>
           <p className="redirect-message">
-            Redirecting you to Homepage in {timer} Seconds
+            Redirecting you to Homepage in <b className="sec">{timer} Seconds</b>
           </p>
         </div>
       )}
