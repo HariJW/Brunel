@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Brunel/static/css/main.1dd243f8.css",
+    "main.js": "/Brunel/static/js/main.1d71c9ba.js",
+    "static/js/453.c3b8c404.chunk.js": "/Brunel/static/js/453.c3b8c404.chunk.js",
+    "static/media/girl.png": "/Brunel/static/media/girl.12831659fa1308adbd5d.png",
+    "static/media/a.png": "/Brunel/static/media/a.dea96ff630f57757f140.png",
+    "index.html": "/Brunel/index.html",
+    "main.1dd243f8.css.map": "/Brunel/static/css/main.1dd243f8.css.map",
+    "main.1d71c9ba.js.map": "/Brunel/static/js/main.1d71c9ba.js.map",
+    "453.c3b8c404.chunk.js.map": "/Brunel/static/js/453.c3b8c404.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dd243f8.css",
+    "static/js/main.1d71c9ba.js"
+  ]
+}
